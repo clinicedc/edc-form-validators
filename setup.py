@@ -17,7 +17,7 @@ setup(
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/botswana-harvard/edc-form-validators',
+    url='https://github.com/clinicedc/edc-form-validators',
     license='GPL license, see LICENSE',
     description='Form validator classes for django ModelForms',
     long_description=README,
