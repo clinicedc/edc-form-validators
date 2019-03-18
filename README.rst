@@ -1,4 +1,4 @@
-|pypi| |travis| |coverage|
+|pypi| |travis| |codecov| |downloads|
 
 edc-form-validators
 -------------------
@@ -55,6 +55,8 @@ Test the ``form_validator`` without having to instantiate the ``ModelForm``:
 .. |travis| image:: https://travis-ci.org/clinicedc/edc-form-validators.svg?branch=develop
     :target: https://travis-ci.org/clinicedc/edc-form-validators
     
-.. |coverage| image:: https://coveralls.io/repos/github/clinicedc/edc-form-validators/badge.svg?branch=develop
-    :target: https://coveralls.io/github/clinicedc/edc-form-validators?branch=develop
-    
+.. |codecov| image:: https://codecov.io/gh/clinicedc/edc-form-validators/branch/develop/graph/badge.svg
+  :target: https://codecov.io/gh/clinicedc/edc-form-validators
+
+.. |downloads| image:: https://pepy.tech/badge/edc-form-validators
+   :target: https://pepy.tech/project/edc-form-validators
