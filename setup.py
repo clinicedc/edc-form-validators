@@ -22,7 +22,7 @@ os.chdir(normpath(join(abspath(__file__), os.pardir)))
 setup(
     name='edc-form-validators',
     version=VERSION,
-    author=u'Erik van Widenfelt',
+    author='Erik van Widenfelt',
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
