@@ -29,6 +29,7 @@ installed_apps = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'edc_form_validators.apps.AppConfig',
+    'form_validators_app.apps.AppConfig',
 ]
 
 DEFAULT_SETTINGS = dict(
