@@ -3,9 +3,9 @@ from django.db import models
 
 class Alphabet(models.Model):
 
-    name = models.CharField(max_length=25, null=True)
+    display_name = models.CharField(max_length=25, null=True)
 
-    short_name = models.CharField(max_length=25, null=True)
+    name = models.CharField(max_length=25, null=True)
 
 
 class TestModel(models.Model):
