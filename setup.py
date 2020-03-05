@@ -32,7 +32,7 @@ setup(
     long_description=README,
     zip_safe=False,
     keywords='django modelform form validation edc',
-    install_requires=['edc-constants'],
+    install_requires=[],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
