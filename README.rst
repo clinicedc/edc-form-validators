@@ -1,4 +1,4 @@
-|pypi| |travis| |codecov| |downloads|
+|pypi| |actions| |codecov| |downloads|
 
 edc-form-validators
 -------------------
@@ -31,7 +31,7 @@ Declare a form with it's ``form_validator`` class and use ``FormValidatorMixin``
         class Meta:
             model = TestModel
             fields = '__all__'
- 
+
 
 Testing
 -------
@@ -51,10 +51,10 @@ Test the ``form_validator`` without having to instantiate the ``ModelForm``:
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-form-validators.svg
     :target: https://pypi.python.org/pypi/edc-form-validators
-    
-.. |travis| image:: https://travis-ci.com/clinicedc/edc-form-validators.svg?branch=develop
-    :target: https://travis-ci.com/clinicedc/edc-form-validators
-    
+
+.. |actions| image:: https://github.com/clinicedc/edc-form-validators/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-form-validators/actions?query=workflow:build
+
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc-form-validators/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc-form-validators
 
