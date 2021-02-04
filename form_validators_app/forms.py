@@ -1,14 +1,13 @@
 from django import forms
-from edc_form_validators.form_validator_mixin import FormValidatorMixin
-from edc_form_validators.form_validator import FormValidator
+from edc_constants.constants import NO, YES
 
-from edc_constants.constants import YES, NO
+from edc_form_validators.form_validator import FormValidator
+from edc_form_validators.form_validator_mixin import FormValidatorMixin
 
 from .models import TestModel
 
 
 class TestModelFormValidator(FormValidator):
-
     def clean(self):
         self.required_if(YES, field="f1", field_required="f2")
 
