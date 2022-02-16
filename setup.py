@@ -24,6 +24,7 @@ setup(
     url="https://github.com/clinicedc/edc-form-validators",
     license="GPL license, see LICENSE",
     description="Form validator classes for django ModelForms",
+    long_description_content_type="text/x-rst",
     long_description=README,
     zip_safe=False,
     keywords="django modelform form validation edc",
