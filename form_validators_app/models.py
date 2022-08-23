@@ -17,3 +17,7 @@ class TestModel(models.Model):
     f5 = models.CharField(max_length=10)
     f5_other = models.CharField(max_length=10, null=True)
     alphabet = models.ManyToManyField(Alphabet)
+
+    class Meta:
+        verbose_name = "Test model"
+        verbose_name_plural = "Test models"

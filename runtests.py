@@ -25,13 +25,13 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         "django.contrib.sessions",
         "django.contrib.sites",
         "django.contrib.staticfiles",
-        "django_crypto_fields.apps.AppConfig",
-        "django_revision.apps.AppConfig",
-        "multisite",
+        # "django_crypto_fields.apps.AppConfig",
+        # "django_revision.apps.AppConfig",
+        # "multisite",
+        # "edc_dashboard.apps.AppConfig",
         "edc_form_validators.apps.AppConfig",
         "form_validators_app.apps.AppConfig",
     ],
-    add_dashboard_middleware=True,
 ).settings
 
 
