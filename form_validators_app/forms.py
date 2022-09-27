@@ -2,7 +2,7 @@ from django import forms
 from edc_constants.constants import YES
 
 from edc_form_validators.form_validator import FormValidator
-from edc_form_validators.form_validator_mixin import FormValidatorMixin
+from edc_form_validators.form_validator_mixins import FormValidatorMixin
 
 from .models import TestModel
 
