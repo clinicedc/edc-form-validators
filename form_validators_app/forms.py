@@ -13,7 +13,6 @@ class TestModelFormValidator(FormValidator):
 
 
 class TestModelForm(FormValidatorMixin, forms.ModelForm):
-
     form_validator = TestModelFormValidator
 
     class Meta:

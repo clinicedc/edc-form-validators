@@ -7,5 +7,4 @@ from .models import TestModel
 
 @register(TestModel)
 class TestModelAdmin(admin.ModelAdmin):
-
     form = TestModelForm
