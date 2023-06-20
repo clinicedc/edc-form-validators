@@ -9,7 +9,7 @@ Form validator classes for ModelForms
 ModelForm ``FormValidator``
 ---------------------------
 
-``FormValidator`` simplifies common patterns used in ``ModelForm.clean``. For example, if there is a response to field A then there should not a be response to B and visa-versa.
+``FormValidator`` simplifies common patterns used in ``ModelForm.clean``. For example, if there is a response to field A then there should not a be response to field B and visa-versa.
 
 Declare a form with it's ``form_validator`` class and use ``FormValidatorMixin``:
 
