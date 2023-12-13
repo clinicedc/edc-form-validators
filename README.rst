@@ -52,8 +52,8 @@ Test the ``form_validator`` without having to instantiate the ``ModelForm``:
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-form-validators.svg
     :target: https://pypi.python.org/pypi/edc-form-validators
 
-.. |actions| image:: https://github.com/clinicedc/edc-form-validators/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-form-validators/actions?query=workflow:build
+.. |actions| image:: https://github.com/clinicedc/edc-form-validators/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-form-validators/actions/workflows/build.yml
 
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc-form-validators/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc-form-validators
